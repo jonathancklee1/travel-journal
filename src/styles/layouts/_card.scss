@@ -1,0 +1,43 @@
+@use "../abstracts/" as *;
+
+.card-item {
+  display: flex;
+  color: $text-clr;
+  margin-bottom: 2.25rem;
+}
+.card-img {
+  width: 7.8rem;
+  height: 10.5rem;
+  border-radius: 5px;
+  object-fit: cover;
+}
+.pin {
+  width: 0.5rem;
+  height: 0.6rem;
+  margin-right: 4px;
+}
+.country {
+  margin-right: 0.5rem;
+}
+.link {
+  text-decoration-line: underline;
+
+  color: $light-grey;
+}
+.location-wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.25rem;
+}
+.card-info {
+  margin-left: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.location {
+  height: 2.5rem;
+}
+.dates {
+  margin-bottom: 0.4rem;
+}

@@ -1,0 +1,13 @@
+@use "../abstracts" as *;
+.nav {
+  height: 3.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $secondary-clr;
+  color: $white;
+}
+.logo {
+  width: 1.5rem;
+  margin-right: 0.8rem;
+}

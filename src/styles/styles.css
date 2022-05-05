@@ -1,0 +1,108 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter";
+}
+
+p,
+a {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 150%;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 14.4608px;
+  line-height: 18px;
+  letter-spacing: -0.075em;
+}
+
+a {
+  text-decoration: none;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.nav {
+  height: 3.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f55a5a;
+  color: #ffffff;
+}
+
+.logo {
+  width: 1.5rem;
+  margin-right: 0.8rem;
+}
+
+.card-item {
+  display: flex;
+  color: #2b283a;
+  margin-bottom: 2.25rem;
+}
+
+.card-img {
+  width: 7.8rem;
+  height: 10.5rem;
+  border-radius: 5px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.pin {
+  width: 0.5rem;
+  height: 0.6rem;
+  margin-right: 4px;
+}
+
+.country {
+  margin-right: 0.5rem;
+}
+
+.link {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #918e9b;
+}
+
+.location-wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.25rem;
+}
+
+.card-info {
+  margin-left: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.location {
+  height: 2.5rem;
+}
+
+.dates {
+  margin-bottom: 0.4rem;
+}
+
+.card-list {
+  padding: 2.5rem;
+}/*# sourceMappingURL=styles.css.map */
